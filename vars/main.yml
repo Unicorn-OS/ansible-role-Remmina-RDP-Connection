@@ -1,0 +1,2 @@
+---
+profile_dir: "/home/{{ ansible_env.USER }}/.local/share/remmina"

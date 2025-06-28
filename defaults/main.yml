@@ -1,0 +1,9 @@
+---
+os: Ubuntu
+desktop: Gnome
+
+ip_address: 192.168.122.68
+
+protocol: RDP
+
+profile_name: "group_{{ protocol|lower }}_{{ os|lower }}-{{ desktop|lower }}_{{ ip_address | replace('.','-') }}.remmina"
